@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonfire</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="wow/css/libs/animate.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick/css/slick.css">
+</head>
+<body>
+    <div id="body">
+        <!----HEADER------->
+        <header class="header" id="header">
+            <img class="header__bg" src="images/bg-header.png" alt="">
+            <div class="container-fluid">
+                <div class="row">
+                    <!---  LOGO --->
+                    <div class="header__logo col-6">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__account col-6">
+                        <a class="header__account--cart" href="#">
+                            <span class="iconify" data-icon="ion-ios-cart-outline" data-inline="false"></span>
+                            <span class="header__account--quality">2</span>
+                        </a>
+                        <a class="header__account--menu" href="#" data-toggle="modal" data-target="#modal">
+                            <i class="las la-bars"></i>
+                        </a>
+                        <div class="modal fade right" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                                                            
+                            <div data-wow-duration="0.5s" class="modal-dialog-full-width modal-dialog momodel modal-fluid wow fadeInRightBig" role="document">
+                                <div class="modal-content-full-width modal-content">
+                                    <div class=" modal-header-full-width modal-header text-center">
+                                        <p>Menu</p>
+                                        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                                            <span style="font-size:30px;" class="iconify" data-icon="clarity:times-line" data-inline="false"></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <nav>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Pages</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__text">
+                    <p data-wow-duration="1.5s" class="header__text--spring wow slideInLeft">Spring 2017</p>
+                    <p data-wow-delay="1s" data-wow-duration="1s" class="header__text--content header__text--content2 wow slideInRight">
+                    It's your </p>
+                    <p data-wow-delay="1s" data-wow-duration="1s" class="header__text--content header__text--content1 wow fadeInLeftBig bounce">
+                    shine time 
+                    </p>
+                    <div data-wow-delay="1s" data-wow-duration="2s" class="header__text--btn wow bounceInUp">
+                    <a href="#">
+                        <span>Discover now</span>
+                    </a>
+                </div>
+                
+                    
+                <nav data-wow-delay="0.6s" data-wow-duration="2s" class="header__social-link wow bounceInLeft">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+        <!---- SUPPORT ---->
+        <section class="support">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 text-center">
+                        <p class="support__detail--title1 support__detail--title">Free Shipping</p>
+                        <p class="support__detail--content support__detail--content1">All order over $300</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <p class="support__detail--title2 support__detail--title mr-5">Support Customer</p>
+                        <p class="support__detail--content support__detail--conten2">Support 24/7</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <p class="support__detail--title3 support__detail--title">Secure Payments</p>
+                        <p class="support__detail--content support__detail--content3">Support 24/7</p>
+                    </div>
+                </div>
+            </div>              
+        </section>
+
+        <!------  MAIN-TEXT  -->
+        <section class="text text-center"> 
+            <p data-wow-duration="1.5s" class="wow fadeInUpBig">
+                It started with a simple idea: Create quality, well-designed products that I wanted myself.</p>
+        </section>
+        <!---  PRODUCT --->
+        <section class="product"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div data-wow-duration="0.9s" class="col-12 col-lg-3 col-sm-3 product__item wow bounceInLeft">
+                        <a href="#">
+                            <img class="product__img1" src="images/product-1.png" alt="">
+                        </a>
+                        <div class="product__item-infor1 text-center">
+                            <p class="product__item-name">Gold Leaf Ring</p>
+                            <p class="product__item-price">$179.00</p>
+                        </div>
+                    </div>
+                    <div data-wow-duration="0.9s" class="col-12 col-lg-6 col-sm-6 product__item wow bounceInUp"> 
+                        <a href="#">
+                            <img class="product__img2" src="images/product-2.png" alt="">
+                        </a>
+                        <div class="product__item-infor2">
+                            <p class="product__infor2-sale">sale up to</p>
+                            <p class="product__infor2-70">70%</p>
+                            <p class="product__infor2-select">Select Gold Clearance</p>
+                            <p class="product__infor2-shop">Shop now</p>
+                        </div>
+                    </div>
+                    <div data-wow-duration="0.9s" class="col-12col-lg-3 col-sm-3 product__item wow bounceInRight">
+                        <a href="#">
+                            <img  class="product__img3" src="images/product-3.png" alt="">
+                        </a>
+                        <div class="product__item-infor3">
+                            <p class="product__infor3-new">new collection</p>
+                            <p class="product__infor3-ring">Leaf Ring</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!---- Product-BOT -->
+                <div class="row product__row-bottom">
+                    <div class="col-12 col-lg-3 col-sm-3 product__item">
+                        <a href="#">
+                            <img src="images/product-4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-3 product__item">
+                        <a href="#">
+                            <img src="images/product-5.png" alt="">
+                        </a>
+                        <div class="product__item-infor1 text-center">
+                            <p data-wow-duration="0.5s" class="product__item-name wow slideInRight">Rose Gold Necklaces</p>
+                            <p data-wow-duration="0.5s" class="product__item-price wow slideInRight">$179.00</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-sm-6 product__item">
+                        <a href="#">
+                            <img src="images/product-6.png" alt="">
+                        </a>
+                        <div class="product__item-infor6">
+                            <p class="product__item-infor6--ring">Princess Ring</p>
+                            <p class="product__item-infor6--gold">Rose Gold</p>
+                            <p class="product__item-infor6--brass">Rose gold plated over brass</p>
+                            <p class="product__item-infor6--size">* One size</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---- FEATURE-ITEM -->
+        <section class="feature">
+            <div class="container">
+                <div class="row row__title">
+                    <h3>Featured items</h3>
+                    <a href="#">
+                        View more
+                        <img src="images/view-more.png" alt="">
+                    </a>
+                </div>
+                <div class="row row__feature">
+                    <div class="col-xl-3 col-sm-6 feature__item feature__item1">
+                         <div class="feature__slider1">
+                            <div class="feature__slider--1">
+                                <a href="#">
+                                    <img src="images/feature-1.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                   <p class="feature__title">Kubusbowl Small</p>
+                                   <p class="feature__price">$19.00</p>
+                                </div>
+                            </div>
+                            <div class="feature__slider--1">
+                                <a href="#">
+                                    <img src="images/feature-2.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                   <p class="feature__title">Kubusbowl Small</p>
+                                   <p class="feature__price">$19.00</p>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev1">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next1">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 feature__item feature__item2">
+                        <div class="feature__slider2">
+                            <div class="feature__slider--2">
+                                <a href="#">
+                                    <img src="images/feature-2.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                    <p class="feature__title">Divine Footstool</p>
+                                    <p class="feature__price">$179.00</p>
+                                 </div>
+                            </div>
+                            <div class="feature__slider--2">
+                                <a href="#">
+                                    <img src="images/feature-3.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                    <p class="feature__title">Divine Footstool</p>
+                                    <p class="feature__price">$179.00</p>
+                                 </div>
+                            </div>
+                        </div>
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev2">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next2">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                   </div>
+                   <div class="col-xl-3 col-sm-6 feature__item feature__item3">
+                    <div class="feature__slider3">
+                        <div class="feature__slider--3">
+                            <a href="#">
+                                <img src="images/feature-3.png" alt="">
+                            </a>
+                            <div class="feature__infor text-center">
+                                <p class="feature__title">Cache Pendant Lamp</p>
+                                <p class="feature__price">$179.00</p>
+                             </div>
+                        </div>
+                        <div class="feature__slider--3">
+                            <a href="#">
+                                <img src="images/feature-4.png" alt="">
+                            </a>
+                            <div class="feature__infor text-center">
+                                <p class="feature__title">Cache Pendant Lamp</p>
+                                <p class="feature__price">$179.00</p>
+                             </div>
+                        </div>
+                    </div>
+                     <div class="feature__overlay feature__overlay3 text-center">
+                        <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                            Add to cart
+                        </button>
+                        <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                            <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                        </button>
+                        <button class="btn btn-secondary feature__chart" title="Rating"> 
+                            <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                        </button>
+                        <button class="btn btn-secondary feature__search" title="Quick search"> 
+                            <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                        </button>
+                     </div>
+                     <div class="feature__arrow-prev feature__arrow-prev3">
+                        <i class="las la-angle-left"></i>
+                    </div>
+                    <div class="feature__arrow-next feature__arrow-next3">
+                        <i class="las la-angle-right"></i>
+                    </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 feature__item feature__item4">
+                        <div class="feature__slider4">
+                            <div class="feature__slider--4">
+                                <a href="#">
+                                    <img src="images/feature-4.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                    <p class="feature__title">RIO Chair</p>
+                                    <p class="feature__price">$179.00</p>
+                                 </div>
+                            </div>
+                            <div class="feature__slider--4">
+                                <a href="#">
+                                    <img src="images/feature-4.png" alt="">
+                                </a>
+                                <div class="feature__infor text-center">
+                                    <p class="feature__title">RIO Chair</p>
+                                    <p class="feature__price">$179.00</p>
+                                 </div>
+                            </div>
+                        </div>
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev4">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next4">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row__feature-bot">
+                    <div class="col-lg-3 feature__item feature__item1">
+                         <a href="#">
+                             <img src="images/feature-5.png" alt="">
+                         </a>
+                         <div class="feature__infor text-center">
+                            <p class="feature__title">Cache Pendant Lamp</p>
+                            <p class="feature__price">$179.00</p>
+                         </div>
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev5">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next5">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 feature__item feature__item2">
+                        <a href="#">
+                            <img src="images/feature-6.png" alt="">
+                        </a>
+                        <div class="feature__infor text-center">
+                            <p class="feature__title">Prismatic Table</p>
+                            <p class="feature__price">$69.00</p>
+                         </div>
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev6">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next6">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                   </div>
+                   <div class="col-lg-3 feature__item feature__item3">
+                    <a href="#">
+                        <img src="images/feature-7.png" alt="">
+                    </a>
+                    <div class="feature__infor text-center">
+                        <p class="feature__title">Cobrat hermo Cup</p>
+                        <p class="feature__price">$179.00</p>
+                     </div>
+                     <div class="feature__overlay">
+                        <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                            Add to cart
+                        </button>
+                        <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                            <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                        </button>
+                        <button class="btn btn-secondary feature__chart" title="Rating"> 
+                            <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                        </button>
+                        <button class="btn btn-secondary feature__search" title="Quick search"> 
+                            <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                        </button>
+                     </div>
+                     <div class="feature__arrow-prev feature__arrow-prev7">
+                        <i class="las la-angle-left"></i>
+                    </div>
+                    <div class="feature__arrow-next feature__arrow-next7">
+                        <i class="las la-angle-right"></i>
+                    </div>
+                    
+                    </div>
+                    <div class="col-lg-3 feature__item feature__item4">
+                        <a href="#">
+                            <img src="images/feature-8.png" alt="">
+                        </a>
+                        <div class="feature__infor text-center">
+                            <p class="feature__title">Motana Collection</p>
+                            <p class="feature__price">$179.00</p>
+                         </div>
+                         <div class="feature__overlay">
+                            <button class="btn btn-secondary feature__cart" title="Add to cart"> 
+                                Add to cart
+                            </button>
+                            <button class="btn btn-secondary feature__whislist" title="Whislist"> 
+                                <span style="font-size: 20px;" class="iconify" data-icon="ei:heart" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__chart" title="Rating"> 
+                                <span class="iconify" data-icon="bi:bar-chart-fill" data-inline="false"></span>
+                            </button>
+                            <button class="btn btn-secondary feature__search" title="Quick search"> 
+                                <span class="iconify" data-icon="ion:search-outline" data-inline="false"></span>
+                            </button>
+                         </div>
+                         <div class="feature__arrow-prev feature__arrow-prev8">
+                            <i class="las la-angle-left"></i>
+                        </div>
+                        <div class="feature__arrow-next feature__arrow-next8">
+                            <i class="las la-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----  Blog-->
+        <section class="blog">
+            <div class="container">
+                    <h3>Blog update</h3>
+                <div class="row">
+                    <div class="blog__item blog__item1 col-lg-4">
+                        <div class="blog__item-card">
+                            <a href="#">
+                                <img src="images/blog-1.png" alt="">
+                            </a>
+                            <div class="blog__infor">
+                                <p class="blog__time">July 14th, 2016</p>
+                                <p class="blog__title1 blog__title">8 Things I've Learned from</p>
+                                <p class="blog__title blog__title2">8 Years of Bonfire</p>
+                            </div>
+                            <div class="blog__like d-flex">
+                                <div class="blog__like--view d-flex">
+                                    <span class="iconify" data-icon="entypo:eye" data-inline="false"></span>
+                                    <p>941 Views</p>
+                                </div>
+                                <div class="blog__like--share d-flex">
+                                    <span class="iconify" data-icon="bx:bxs-share-alt" data-inline="false"></span>
+                                    <p>27 Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item blog__item2 col-lg-4">
+                        <div class="blog__item-card">
+                            <a href="#">
+                                <img src="images/blog-2.png" alt="">
+                            </a>
+                            <div class="blog__infor">
+                                <p class="blog__time">July 14th, 2016</p>
+                                <p class="blog__title1 blog__title">How I Stay Inspired and</p>
+                                <p class="blog__title blog__title2">Come Up with New Idea</p>
+                            </div>
+                            <div class="blog__like d-flex">
+                                <div class="blog__like--view d-flex">
+                                    <span class="iconify" data-icon="entypo:eye" data-inline="false"></span>
+                                    <p>941 Views</p>
+                                </div>
+                                <div class="blog__like--share d-flex">
+                                    <span class="iconify" data-icon="bx:bxs-share-alt" data-inline="false"></span>
+                                    <p>27 Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item blog__item3 col-lg-4">
+                        <div class="blog__item-card">
+                            <a href="#">
+                                <img src="images/blog-3.png" alt="">
+                            </a>
+                            <div class="blog__infor">
+                                <p class="blog__time">July 14th, 2016</p>
+                                <p class="blog__title1 blog__title">Wait, there's a human on</p>
+                                <p class="blog__title blog__title2">the other end?</p>
+                            </div>
+                            <div class="blog__like d-flex">
+                                <div class="blog__like--view d-flex">
+                                    <span class="iconify" data-icon="entypo:eye" data-inline="false"></span>
+                                    <p>941 Views</p>
+                                </div>
+                                <div class="blog__like--share d-flex">
+                                    <span class="iconify" data-icon="bx:bxs-share-alt" data-inline="false"></span>
+                                    <p>27 Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="blog__link">
+                    <a href="#">Go to blog</a>
+                    <span class="blog__link--bg"></span>
+                </div>
+            </div>
+        </section>
+        <!----  SPONSOR-->
+        <section class="sponsor"> 
+            <div class="container">
+                <div class="row">
+                    <div class="sponsor--1 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-1.png" alt="">
+                    </div>
+                    <div class="sponsor--2 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-2.png" alt="">
+                    </div>
+                    <div class="sponsor--3 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-3.png" alt="">
+                    </div>
+                    <div class="sponsor--4 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-4.png" alt="">
+                    </div>
+                    <div class="sponsor--5 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-5.png" alt="">
+                    </div>
+                    <div class="sponsor--6 sponsor__img col-6 col-sm-4 col-lg-4 col-xl-2 col-sm-3">
+                        <img src="images/sponsor-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---- FOOTER -->
+        <section class="footer">
+            <div class="container">
+                <div class="row row__footer-top">
+                    <div class="footer__logo col-xl-2 col-lg-6 col-6">
+                        <a href="#">
+                            <img src="images/logo-footer.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__menu col-xl-7 ">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__btn col-xl-3 col-lg-6 col-6">
+                        <button class="btn btn-secondary">
+                            Subscribe
+                        <span class="iconify" data-icon="foundation:mail" data-inline="false"></span>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="row row__footer-bottom">
+                    <div class="footer__address col-12 col-sm-12 col-md-6">
+                        <p class="footer__add1"> 14 L.E Goulburn St, Sydney 2000NSW  -  (088) 1990 6886</p>
+                        <p class="footer__add2">Copyright © 2016 Bonfire</p>
+                    </div>
+                    <div class="footer__social col-12 col-sm-12 col-md-6"> 
+                        <ul>
+                            <li><a href="#"><span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span></a></li>
+                            <li><a href="#"><span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span></a></li>
+                            <li><a href="#"><span class="iconify" data-icon="bx:bxl-youtube" data-inline="false"></span></a></li>
+                            <li><a href="#"><span class="iconify" data-icon="bx:bxl-skype" data-inline="false"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="slick/js/slick.min.js"></script>
+    <script src="wow/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/home.js"></script>
+</body>
+</html>
